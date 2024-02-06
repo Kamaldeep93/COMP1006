@@ -12,7 +12,7 @@
    }
     elseif(!preg_match("/^[a-zA-Z]*$/",$name))
     {
-        echo"Only alpahbets and whitespaces are allowed";
+        echo"Only alpahbets and whitespaces are allowed in your name";
     }
 
    else{
