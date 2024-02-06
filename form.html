@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+        <style>
+            .box{
+                width:50%;
+                margin-left:23%;
+                margin-top:5%;
+                border:1px solid gainsboro;
+                padding:20px;
+                background-color: gainsboro;
+                border-radius: 10px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+              </ul>
+              
+            </div>
+          </nav>
+        <!-- <form  action="welcome.php" method="post"> -->
+
+            <!-- <br> User ID<input type="text" name="uid"><br>
+
+            <br> Name<input type="text" name="uname"><br>
+            
+            <br> Email<input type="text" name="email"><br>
+           
+            <br> <input type="submit"> -->
+          
+<div class="box">
+            <form action="formvalidations.php" method="post">
+                <div class="form-group">
+                    <label for="uid">User ID</label>
+                    <input type="text" class="form-control"  placeholder="Enter ID" name="id">
+                    
+                  </div><br>
+
+                  <div class="form-group">
+                    <label for="name">User Name</label>
+                    <input type="text" class="form-control"  placeholder="Enter username" name="name">
+                  </div><br>
+
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control"  placeholder="Enter email" name="email">
+                  
+                </div><br>
+                
+         <input type="submit" class="btn btn-primary">
+              </form>
+
+            </div>
+
+
+
+       
+    </body>
+</html>
